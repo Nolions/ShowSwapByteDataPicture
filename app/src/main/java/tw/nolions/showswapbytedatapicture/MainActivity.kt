@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                         .error(
                             Glide.with(context)
                                 .asBitmap()
-                                .load(urlStr)
+                                .load(urlPath)
                         )
                         .into(image)
                 } catch (e: Exception) {
